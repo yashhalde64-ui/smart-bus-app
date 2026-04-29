@@ -1,0 +1,28 @@
+export const schools = [
+  {
+    id: 1,
+    name: "ABC School",
+    address: "Mumbai",
+    lat: 19.2952,
+    lng: 72.8544,
+    principal: "Mr. Sharma",
+    total_students: 500,
+    bus_students: 300,
+    total_buses: 10,
+    phone: "9876543210",
+    plan: "School",
+  },
+  {
+    id: 2,
+    name: "XYZ School",
+    address: "Thane",
+    lat: 19.2183,
+    lng: 72.9781,
+    principal: "Mrs. Patel",
+    total_students: 400,
+    bus_students: 250,
+    total_buses: 8,
+    phone: "9123456780",
+    plan: "Starter",
+  },
+];

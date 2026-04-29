@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== LIGHT THEME ===== */
+:root {
+  --background: 255 255 255;
+  --foreground: 15 23 42;
+
+  --primary: 37 99 235;
+  --secondary: 241 245 249;
+  --accent: 59 130 246;
+
+  --border: 226 232 240;
+}
+
+/* ===== DARK THEME ===== */
+.dark {
+  --background: 15 23 42;
+  --foreground: 248 250 252;
+
+  --primary: 59 130 246;
+  --secondary: 30 41 59;
+  --accent: 96 165 250;
+
+  --border: 51 65 85;
+}
+
+/* ===== BASE STYLES ===== */
+body {
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
+  font-family: system-ui, sans-serif;
+}
+
+* {
+  border-color: rgb(var(--border));
+}

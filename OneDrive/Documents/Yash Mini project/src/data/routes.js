@@ -1,0 +1,35 @@
+export const routes = [
+  {
+    id: 1,
+    route_name: "Route A",
+    school_id: "SCH001",
+    bus_id: "BUS001",
+    total_distance: "12 km",
+    estimated_time: "30 min",
+    total_stops: 3,
+    fuel_consumption: "3L",
+    co2_emissions: "2kg",
+    optimized: true,
+    stops: [
+      { name: "Stop 1", lat: 19.29, lng: 72.85, time: "8:00 AM", students: 5 },
+      { name: "Stop 2", lat: 19.30, lng: 72.86, time: "8:10 AM", students: 8 },
+      { name: "Stop 3", lat: 19.31, lng: 72.87, time: "8:20 AM", students: 6 },
+    ],
+  },
+  {
+    id: 2,
+    route_name: "Route B",
+    school_id: "SCH001",
+    bus_id: "BUS002",
+    total_distance: "10 km",
+    estimated_time: "25 min",
+    total_stops: 2,
+    fuel_consumption: "2.5L",
+    co2_emissions: "1.8kg",
+    optimized: false,
+    stops: [
+      { name: "Stop A", lat: 19.32, lng: 72.88, time: "8:00 AM", students: 4 },
+      { name: "Stop B", lat: 19.33, lng: 72.89, time: "8:15 AM", students: 7 },
+    ],
+  },
+];
